@@ -1,0 +1,42 @@
+ RESTART: C:\Users\pgudipati\Me-Pras-Cloud\Technical-Docs\MachineLearning\Assignment_1\assignment1_v3_Partial_50rows.py 
+Max row Number in XL sheet= 51
+Total Number of Rows in the Training set = 50
+***************Initialise Histogram Dictionary with a size of 32. Index <0 thru31>: ****************
+*****Read all the Rows from XL and save the hights into 3 lists: Male, Femal, Male_And_Female :*****
+Max: 83
+Min: 52
+Size of Male List: 22
+Size of FeMale List: 28
+Sum of both the list sizes: 50
+Combined length of Male and Female Lists = Number of Rows in Training Set - Check PASS
+**************************************Create Male Histogram: ***************************************
+*************************************Create Female Histogram: **************************************
+********************Mean and Standrd Deviation for Male and Female Histograms: *********************
+Mean Male: 71.81818181818181
+Mean Female: 64.07142857142857
+stdev Male: 3.4590992997264425
+stdev Female: 3.952763416186026
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Counts in each Bin: {0: {'female': 0, 'male': 0}, 1: {'female': 0, 'male': 0}, 2: {'female': 0, 'male': 0}, 3: {'female': 1, 'male': 0}, 4: {'female': 1, 'male': 0}, 5: {'female': 0, 'male': 0}, 6: {'female': 1, 'male': 0}, 7: {'female': 1, 'male': 0}, 8: {'female': 0, 'male': 0}, 9: {'female': 1, 'male': 0}, 10: {'female': 4, 'male': 0}, 11: {'female': 2, 'male': 0}, 12: {'female': 4, 'male': 0}, 13: {'female': 3, 'male': 0}, 14: {'female': 3, 'male': 2}, 15: {'female': 1, 'male': 1}, 16: {'female': 1, 'male': 0}, 17: {'female': 4, 'male': 2}, 18: {'female': 0, 'male': 3}, 19: {'female': 1, 'male': 3}, 20: {'female': 0, 'male': 2}, 21: {'female': 0, 'male': 1}, 22: {'female': 0, 'male': 4}, 23: {'female': 0, 'male': 1}, 24: {'female': 0, 'male': 2}, 25: {'female': 0, 'male': 0}, 26: {'female': 0, 'male': 0}, 27: {'female': 0, 'male': 0}, 28: {'female': 0, 'male': 1}, 29: {'female': 0, 'male': 0}, 30: {'female': 0, 'male': 0}, 31: {'female': 0, 'male': 0}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Max: 83
+Min: 52
+The Sum of all Buckets is Equal to Number of Rows in Training Set - Check PASS
+****************************************************************************************************
+*****************************************Start of Testing ******************************************
+****************************************************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Results using Histogram Method~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Height:	55	bin number:	3	Male Count:	0	female count:	1	Probability of being female: 	1.0
+Height:	60	bin number:	8	Male Count:	0	female count:	0	Probability of being female: 	UNdefined
+Height:	65	bin number:	13	Male Count:	0	female count:	3	Probability of being female: 	1.0
+Height:	70	bin number:	18	Male Count:	3	female count:	0	Probability of being female: 	0.0
+Height:	75	bin number:	23	Male Count:	1	female count:	0	Probability of being female: 	0.0
+Height:	80	bin number:	28	Male Count:	1	female count:	0	Probability of being female: 	0.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Results using Gaussian Method~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Height:	55	PD_Male:	8.487285499098915e-07	PD_f:	0.00724987496546519	Pf:	0.9999080264395984
+Height:	60	PD_Male:	0.0003366893458206605	PD_f:	0.05937839139921591	Pf:	0.9955645771354912
+Height:	65	PD_Male:	0.016530691066710367	PD_f:	0.09818061648523542	Pf:	0.8831652872354087
+Height:	70	PD_Male:	0.10045087380584863	PD_f:	0.03277347531214991	Pf:	0.2934084263689659
+Height:	75	PD_Male:	0.07554704847765216	PD_f:	0.0022086080643674753	Pf:	0.03587324290773084
+Height:	80	PD_Male:	0.0070320566038563175	PD_f:	3.004790695475961e-05	Pf:	0.005408935115152619
+>>> 
