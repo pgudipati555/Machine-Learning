@@ -1,0 +1,102 @@
+>>> 
+ RESTART: C:/Users/pgudipati/Me-Pras-Cloud/Technical-Docs/MachineLearning/Assignment_6/assignment6_v2.good.py 
+Max row Number in XL sheet= 1730
+Total Number of Rows in the Training set = 1728
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1. Initialize Data structures.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2. Read XL sheet into X, Xa and T2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~3. Veify the counts of each feature from DataStructures~~~~~~~~~~~~~~~~~~~~~~~
+X.shape	(1728, 21)
+Xa.shape	(1728, 22)
+T2.shape	(1728, 4)
+sumf1	1728	sumf2	1728	sumf3	1728	sumf4	1728	sumf5	1728	sumf6	1728
+---------------------All Counts are matching: *** PASS ***----------------------
+W2.shape	(22, 4)
+*** Calculate 4 Class Confusion Matrix *****
+Four Class Confusion Matrix:SixConfM: 
+ [[1179   31    0    0]
+ [  94  290    0    0]
+ [   0   69    0    0]
+ [   0   65    0    0]]
+*** Calculate Binary Confusion Matrix *****
+Binary Confusion Matrix:BinConfM: 
+ [[1148   62]
+ [  20  498]]
+>>> 
+
+============================================================================================================================================================================
+>>> 
+ RESTART: C:/Users/pgudipati/Me-Pras-Cloud/Technical-Docs/MachineLearning/Assignment_6/assignment6_v3.good.py 
+Max row Number in XL sheet= 1730
+Total Number of Rows in the Training set = 1728
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1. Initialize Data structures.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2. Read XL sheet into X, Xa and T2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~3. Veify the counts of each feature from DataStructures~~~~~~~~~~~~~~~~~~~~~~~
+X.shape	(1728, 21)
+Xa.shape	(1728, 22)
+T2.shape	(1728, 4)
+sumf1	1728	sumf2	1728	sumf3	1728	sumf4	1728	sumf5	1728	sumf6	1728
+---------------------All Counts are matching: *** PASS ***----------------------
+W2.shape	(22, 4)
+*** Calculate 4 Class Confusion Matrix *****
+Four Class Confusion Matrix:SixConfM: 
+ [[1180   30    0    0]
+ [  99  285    0    0]
+ [   0   69    0    0]
+ [   0   65    0    0]]
+*** Calculate Binary Confusion Matrix *****
+Binary Confusion Matrix:BinConfM: 
+ [[1149   61]
+ [  20  498]]
+>>> 
+
+============================================================================================================================================================================
+>>> 
+ RESTART: C:\Users\pgudipati\Me-Pras-Cloud\Technical-Docs\MachineLearning\Assignment_6\assignment6_v3.good.py 
+Max row Number in XL sheet= 1730
+Total Number of Rows in the Training set = 1728
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1. Initialize Data structures.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2. Read XL sheet into X, Xa and T2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~3. Veify the counts of each feature from DataStructures~~~~~~~~~~~~~~~~~~~~~~~
+X.shape	(1728, 21)
+Xa.shape	(1728, 22)
+T2.shape	(1728, 4)
+sumf1	1728	sumf2	1728	sumf3	1728	sumf4	1728	sumf5	1728	sumf6	1728
+---------------------All Counts are matching: *** PASS ***----------------------
+W2.shape	(22, 4)
+*** Calculate 4 Class Confusion Matrix *****
+Four Class Confusion Matrix:SixConfM: 
+ [[1181   29    0    0]
+ [ 100  284    0    0]
+ [   0   69    0    0]
+ [   0   65    0    0]]
+*** Calculate Binary Confusion Matrix *****
+Binary Confusion Matrix:BinConfM: 
+ [[1148   62]
+ [  20  498]]
+>>> 
+
+============================================================================================================================================================================
+>>> 
+ RESTART: C:\Users\pgudipati\Me-Pras-Cloud\Technical-Docs\MachineLearning\Assignment_6\assignment6_v2.good.py 
+Max row Number in XL sheet= 1730
+Total Number of Rows in the Training set = 1728
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1. Initialize Data structures.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2. Read XL sheet into X, Xa and T2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~3. Veify the counts of each feature from DataStructures~~~~~~~~~~~~~~~~~~~~~~~
+X.shape	(1728, 21)
+Xa.shape	(1728, 22)
+T2.shape	(1728, 4)
+sumf1	1728	sumf2	1728	sumf3	1728	sumf4	1728	sumf5	1728	sumf6	1728
+---------------------All Counts are matching: *** PASS ***----------------------
+W2.shape	(22, 4)
+*** Calculate 4 Class Confusion Matrix *****
+Four Class Confusion Matrix:SixConfM: 
+ [[1181   29    0    0]
+ [ 100  284    0    0]
+ [   0   69    0    0]
+ [   0   65    0    0]]
+*** Calculate Binary Confusion Matrix *****
+Binary Confusion Matrix:BinConfM: 
+ [[1148   62]
+ [  20  498]]
+>>> 

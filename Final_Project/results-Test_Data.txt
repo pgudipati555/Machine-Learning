@@ -1,0 +1,26 @@
+>>> 
+ RESTART: C:/Users/pgudipati/Me-Pras-Cloud/Technical-Docs/MachineLearning/Final_Project/Final_project_v1_test_data.py 
+Max row Number in XL sheet= 146
+Total Number of Rows in the Training set = 145
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1. Initialize Data structures.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2. Read XL sheet into X, Xa and T2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Calculate W2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X.shape	(145, 5)
+Xa.shape	(145, 6)
+W2.shape	(6, 4)
+*** Calculate 4 Class Confusion Matrix *****
+Very_low	High	Low	Middle	<-----Classified-Class
+[[ 0  1  8  7]
+ [ 0  9  9 12]
+ [ 0  6 29 15]
+ [ 0  6 22 21]] 
+
+
+>>> W2
+array([[-0.90099936, -0.36527631, -0.29106895, -0.44265538],
+       [-0.00257046, -0.23051814,  0.01097865,  0.22210995],
+       [-0.27968785,  0.30794454, -0.14704245,  0.11878575],
+       [ 0.15036872, -0.5397035 ,  0.29672762,  0.09260717],
+       [-0.08243858,  0.51246577, -0.20860431, -0.22142288],
+       [ 0.42324052, -0.52909049, -0.02487861,  0.13072858]])
+>>> 

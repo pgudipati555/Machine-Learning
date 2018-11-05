@@ -1,0 +1,76 @@
+>>> 
+ RESTART: C:/Users/pgudipati/Me-Pras-Cloud/Technical-Docs/MachineLearning/Assignment_2/assigntment_2_v5.py 
+Max row Number in XL sheet= 168
+Total Number of Rows in the Training set = 167
+*****Read all the Rows from XL and save the hights into 3 lists: Male, Femal, Male_And_Female :*****
+Size of/Rows in M:  78 
+Size of/Rows in F: 89
+1. Number of Feature Vectors in the Training Set = Sum of Rowns in Male and Female Arrays- Check PASS
+******************************
+Number of Male Samples:  78
+Number of Female Samples:  89
+Overall Max. Height:  78.0
+Overall Min. Height:  57.0
+Overall Max. Hand Span:  25.5
+Overall Min. Hand Span:  16.0
+Bin Count:  7
+******************************
+**************************************Create Male Histogram: ***************************************
+Number of Feature Vectors in the Training Set = Sum of Hm+ Sum of Hf : Check PASS
+****************************************************************************************************
+*****************************************Start of Testing ******************************************
+****************************************************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Results using Histogram Method~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Height:	69	hand Span	17.5	bin number:	3.0	1.0	Male Count:	1	female count:	1	Probability of being female: 	0.5
+Height:	66	hand Span	22	bin number:	3.0	4.0	Male Count:	11	female count:	2	Probability of being female: 	0.153846153846
+Height:	70	hand Span	21.5	bin number:	4.0	3.0	Male Count:	10	female count:	2	Probability of being female: 	0.166666666667
+Height:	69	hand Span	23.5	bin number:	3.0	5.0	Male Count:	1	female count:	0	Probability of being female: 	0.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Results using Bayesian Classifier~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MuF : [ 65.25280899  19.6011236 ]
+MuM : [ 71.28846154  22.30128205]
+CovF :
+ [[ 7.75780452  1.65170135]
+ [ 1.65170135  1.75670327]]
+CovM :
+ [[ 7.08778721  1.80157343]
+ [ 1.80157343  2.06064769]]
+Height:	69	Hand Span:	17.5	PD_Male:	0.0001262843128530094	PD_f:	0.0009801188065675529	Pf1:	0.8985362558122363	Pf2:	0.8985362558122363
+Height:	66	Hand Span:	22	PD_Male:	0.0046764775829645985	PD_f:	0.007801161924853712	Pf1:	0.6555792232463566	Pf2:	0.6555792232463566
+Height:	70	Hand Span:	21.5	PD_Male:	0.039161727767411766	PD_f:	0.00851918157674936	Pf1:	0.198857217831984	Pf2:	0.19885721783198398
+Height:	69	Hand Span:	23.5	PD_Male:	0.012140070729102313	PD_f:	0.0006365602102161147	Pf1:	0.05645179652734145	Pf2:	0.05645179652734145
+~~~~~~~~~~~~~~~~~~~~~~~~Reconstruct Male Histogram Using Bayesian parameters~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~Reconstruct Female Histogram Using Bayesian parameters~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~print Histograms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hm: 
+ [[ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  1  1  9 11  1  0]
+ [ 0  0  0 10 12  5  0]
+ [ 0  0  0  5  8 14  0]
+ [ 0  0  0  0  0  0  1]]
+Hm_re: 
+ [[  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   2.   7.   5.   1.   0.]
+ [  0.   0.   1.  10.  20.   8.   1.]
+ [  0.   0.   0.   2.   8.   8.   2.]
+ [  0.   0.   0.   0.   0.   1.   0.]]
+Hf: 
+ [[ 1  0  0  0  0  0  0]
+ [ 0  5  4  3  0  0  0]
+ [ 1  2 16 13  1  0  0]
+ [ 0  1 12 24  2  0  0]
+ [ 0  0  2  2  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]]
+Hf_re: 
+ [[  0.   0.   0.   0.   0.   0.   0.]
+ [  1.   4.   5.   1.   0.   0.   0.]
+ [  0.   7.  21.  11.   1.   0.   0.]
+ [  0.   2.  13.  15.   3.   0.   0.]
+ [  0.   0.   1.   3.   1.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.]]
+>>> 
