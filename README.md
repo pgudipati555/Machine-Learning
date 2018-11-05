@@ -1,8 +1,8 @@
 #My Machine Learning Assigments
 
-Assignment 1:  1D - histogram classifiers and Bayesian classifiers.
+Assignment 1:  1D histogram classifiers and Bayesian classifiers.
 
-Assignment 2:  2D - histogram classifiers, Gaussian model and PDF.
+Assignment 2:  2D histogram classifiers, Gaussian model and PDF.
 
 Assignment 3:  PCA (Principal Component Analysis)
 
